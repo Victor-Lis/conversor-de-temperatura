@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "conversor-de-temperatura",
+    "name": "Conversor de Temperatura",
     "slug": "conversor-de-temperatura",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "dev.victor.conversordetemperatura"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "be9dd38a-a097-4d44-9b8a-a55fd18de687"
+      }
     }
   }
 }
